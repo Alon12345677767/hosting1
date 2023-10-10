@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form method="post">
+        <div class="contenedor">
+            <h2>Login Form</h2>
+            <div class="elemento">
+                <label for="email or phone">Email or Phone </label>
+                <br>
+                <input id="email or phone" type="text">
+                <br>
+                <label for="password"> Password</label>
+                <br>
+                <input id="password" type="password">
+                <br>
+                <input type="submit" value="Login" >
+                <p>Not a  Nember <a href="envio.html" target="_blank">signup now</a></p>
+
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
